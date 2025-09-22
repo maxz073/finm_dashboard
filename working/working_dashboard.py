@@ -9,9 +9,9 @@ import plotly.express as px
 import streamlit as st
 import yfinance as yf
 
-st.set_page_config(page_title="Streamlit Example 03", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Streamlit Commodities Dashboard", page_icon="📊", layout="wide")
 
-st.title("Exploring Sample Price Data")
+st.title("Exploring Commodities Price Data")
 st.write(
     "This app introduces a simple navigation pattern and loads price data from Yahoo Finance. "
     "Use it as a stepping stone between the hello-world example and the full dashboard demo."
